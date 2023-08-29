@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univeristy Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Worlds Biggest Univeristy</h1>
+            <p>“I am the strongest when the sun is out, for I am the Lion's Sin of Pride, Escanor.” “One must know darkness to fully appreciate the light.”<br> “Even in the darkest hour, the sun will always rise again.” “I am not a god, but even the gods fear my power.”</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/8fe8b7673b.js" crossorigin="anonymous"></script>
+
+    <!---- Course-->
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>As you know, madness is like gravity: All it takes is a little push</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>You create your own opportunities. ...
+                Never break your promises. ...
+                You are never as stuck as you think you are. ...
+                Happiness is a choice. ...
+                Habits develop into character. ...
+                Be happy with who you are. ...
+                Don't seek happiness ,create it. ...
+                If you want to be happy, stop complaining</p>
+        </div>
+    
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>Network: Build relationships with your professors, fellow students, and professionals in your field. Networking can open up opportunities for collaborations, internships, and future job prospects.
+            Seek Guidance: Don't hesitate to ask for help when needed. Professors  
+            </p>
+        </div>
+        
+       <div class="course-col">
+         <h3>Post Graduation</h3>
+         <p>Set Clear Goals: Define your academic and personal goals for your postgraduate studies. Having a clear sense of purpose will help you stay motivated and focused throughout your program  Time Management: Postgraduate studies can be demanding, so effective time management is crucial. Create a schedule that allocates time for classes, research, studying, relaxation, and other activities. Prioritize tasks based on their importance and deadlines.
+            Stay Organized: Keep track of assignments, deadlines, and readings. Utilize digital tools, planners, or apps to help you stay organized and manage your tasks efficiently.</p>
+
+        </div>
+    </div>
+</section>
+<!------ campus -->
+<section class="campus">
+     <h1>Our Global Campus</h1>
+     <p>The only way to do great work is to love what you do." - Steve Jobs
+        "In three words I can sum up everything I've learned about life: it goes on." - Robert Frost
+        "Be yourself; everyone else is already taken." - Oscar Wilde
+        "The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+        "The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela
+        </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london5.png">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+        
+            <div class="campus-col">
+              <img src="images/london.jfif">
+              <div class="layer">
+                <h3>NEW YORK</h3>
+              </div>
+            </div>
+            <div class="campus-col">
+               <img src="images/wash11.jfif">
+              <div class="layer">
+                <h3>WASHINGTON</h3>
+              </div>
+            </div> 
+        </div>
+</section>
+<!--------- facilities   -->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>"Life is 10% what happens to us and 90% how we react to it." - Charles R. Swindoll
+        "Don't watch the clock; do what it does. Keep going."</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/student5.jfif">
+                <h3>World Class Library</h3>
+                <p>"The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela
+                    "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
+                    "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe." - Albert Einstein</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/student6.jfif">
+                <h3>Largest Play Ground</h3>
+                <p>"The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela
+                    "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
+                    "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe." - Albert Einstein</p>
+            </div>
+        </div>
+
+</section>
+
+
+
+    <!-----javascript for toggle menu------>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
